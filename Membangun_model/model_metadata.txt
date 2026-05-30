@@ -1,0 +1,5 @@
+=== Informasi Training Model Rekomendasi ===
+Total film yang dilatih: 1500 baris
+Total fitur emosi (vektor): 150 kolom
+Algoritma yang digunakan: Nearest Neighbors (KNN)
+Skenario Tuning: K=[3,5,7] dengan metrik Cosine & Euclidean.

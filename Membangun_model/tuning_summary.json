@@ -1,0 +1,32 @@
+[
+    {
+        "n_neighbors": 3,
+        "metric": "cosine",
+        "mean_distance": 0.1969366812138542
+    },
+    {
+        "n_neighbors": 5,
+        "metric": "cosine",
+        "mean_distance": 0.2587588194340571
+    },
+    {
+        "n_neighbors": 7,
+        "metric": "cosine",
+        "mean_distance": 0.29402884221543035
+    },
+    {
+        "n_neighbors": 3,
+        "metric": "euclidean",
+        "mean_distance": 1.2489300061163542
+    },
+    {
+        "n_neighbors": 5,
+        "metric": "euclidean",
+        "mean_distance": 1.572683865368245
+    },
+    {
+        "n_neighbors": 7,
+        "metric": "euclidean",
+        "mean_distance": 1.7377040661395589
+    }
+]
