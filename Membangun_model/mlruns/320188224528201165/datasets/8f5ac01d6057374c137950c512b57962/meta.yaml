@@ -1,0 +1,112 @@
+digest: 1f275078
+name: dataset
+profile: '{"num_rows": 1500, "num_elements": 225000}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "f1_skepticism", "required":
+  true}, {"type": "double", "name": "f1_serenity", "required": true}, {"type": "double",
+  "name": "f1_fear", "required": true}, {"type": "double", "name": "f1_disgust", "required":
+  true}, {"type": "double", "name": "f1_solidarity", "required": true}, {"type": "double",
+  "name": "f1_elation", "required": true}, {"type": "double", "name": "f1_envy", "required":
+  true}, {"type": "double", "name": "f1_puzzlement", "required": true}, {"type": "double",
+  "name": "f1_recklessness", "required": true}, {"type": "double", "name": "f1_loyalty",
+  "required": true}, {"type": "double", "name": "f1_trust", "required": true}, {"type":
+  "double", "name": "f1_sadness", "required": true}, {"type": "double", "name": "f1_shame",
+  "required": true}, {"type": "double", "name": "f1_catharsis", "required": true},
+  {"type": "double", "name": "f1_unease", "required": true}, {"type": "double", "name":
+  "f1_introspection", "required": true}, {"type": "double", "name": "f1_excitement",
+  "required": true}, {"type": "double", "name": "f1_riskiness", "required": true},
+  {"type": "double", "name": "f1_mischief", "required": true}, {"type": "double",
+  "name": "f1_enlightenment", "required": true}, {"type": "double", "name": "f1_love",
+  "required": true}, {"type": "double", "name": "f1_tension", "required": true}, {"type":
+  "double", "name": "f1_sarcasm", "required": true}, {"type": "double", "name": "f1_frustration",
+  "required": true}, {"type": "double", "name": "f1_longing", "required": true}, {"type":
+  "double", "name": "f1_awe", "required": true}, {"type": "double", "name": "f1_defiance",
+  "required": true}, {"type": "double", "name": "f1_amusement", "required": true},
+  {"type": "double", "name": "f1_vulnerability", "required": true}, {"type": "double",
+  "name": "f1_surprise", "required": true}, {"type": "double", "name": "f1_compassion",
+  "required": true}, {"type": "double", "name": "f1_resentment", "required": true},
+  {"type": "double", "name": "f1_triumph", "required": true}, {"type": "double", "name":
+  "f1_happiness", "required": true}, {"type": "double", "name": "f1_acceptance", "required":
+  true}, {"type": "double", "name": "f1_bravery", "required": true}, {"type": "double",
+  "name": "f1_hope", "required": true}, {"type": "double", "name": "f1_conflict",
+  "required": true}, {"type": "double", "name": "f1_exhilaration", "required": true},
+  {"type": "double", "name": "f1_inspiration", "required": true}, {"type": "double",
+  "name": "f1_curiosity", "required": true}, {"type": "double", "name": "f1_regret",
+  "required": true}, {"type": "double", "name": "f1_nostalgia", "required": true},
+  {"type": "double", "name": "f1_irony", "required": true}, {"type": "double", "name":
+  "f1_despair", "required": true}, {"type": "double", "name": "f1_resignation", "required":
+  true}, {"type": "double", "name": "f1_closeness", "required": true}, {"type": "double",
+  "name": "f1_adrenaline", "required": true}, {"type": "double", "name": "f1_belonging",
+  "required": true}, {"type": "double", "name": "f1_anger", "required": true}, {"type":
+  "long", "name": "f2_skepticism", "required": true}, {"type": "long", "name": "f2_serenity",
+  "required": true}, {"type": "long", "name": "f2_fear", "required": true}, {"type":
+  "long", "name": "f2_disgust", "required": true}, {"type": "long", "name": "f2_solidarity",
+  "required": true}, {"type": "long", "name": "f2_elation", "required": true}, {"type":
+  "long", "name": "f2_envy", "required": true}, {"type": "long", "name": "f2_puzzlement",
+  "required": true}, {"type": "long", "name": "f2_recklessness", "required": true},
+  {"type": "long", "name": "f2_loyalty", "required": true}, {"type": "long", "name":
+  "f2_trust", "required": true}, {"type": "long", "name": "f2_sadness", "required":
+  true}, {"type": "long", "name": "f2_shame", "required": true}, {"type": "long",
+  "name": "f2_catharsis", "required": true}, {"type": "long", "name": "f2_unease",
+  "required": true}, {"type": "long", "name": "f2_introspection", "required": true},
+  {"type": "long", "name": "f2_excitement", "required": true}, {"type": "long", "name":
+  "f2_riskiness", "required": true}, {"type": "long", "name": "f2_mischief", "required":
+  true}, {"type": "long", "name": "f2_enlightenment", "required": true}, {"type":
+  "long", "name": "f2_love", "required": true}, {"type": "long", "name": "f2_tension",
+  "required": true}, {"type": "long", "name": "f2_sarcasm", "required": true}, {"type":
+  "long", "name": "f2_frustration", "required": true}, {"type": "long", "name": "f2_longing",
+  "required": true}, {"type": "long", "name": "f2_awe", "required": true}, {"type":
+  "long", "name": "f2_defiance", "required": true}, {"type": "long", "name": "f2_amusement",
+  "required": true}, {"type": "long", "name": "f2_vulnerability", "required": true},
+  {"type": "long", "name": "f2_surprise", "required": true}, {"type": "long", "name":
+  "f2_compassion", "required": true}, {"type": "long", "name": "f2_resentment", "required":
+  true}, {"type": "long", "name": "f2_triumph", "required": true}, {"type": "long",
+  "name": "f2_happiness", "required": true}, {"type": "long", "name": "f2_acceptance",
+  "required": true}, {"type": "long", "name": "f2_bravery", "required": true}, {"type":
+  "long", "name": "f2_hope", "required": true}, {"type": "long", "name": "f2_conflict",
+  "required": true}, {"type": "long", "name": "f2_exhilaration", "required": true},
+  {"type": "long", "name": "f2_inspiration", "required": true}, {"type": "long", "name":
+  "f2_curiosity", "required": true}, {"type": "long", "name": "f2_regret", "required":
+  true}, {"type": "long", "name": "f2_nostalgia", "required": true}, {"type": "long",
+  "name": "f2_irony", "required": true}, {"type": "long", "name": "f2_despair", "required":
+  true}, {"type": "long", "name": "f2_resignation", "required": true}, {"type": "long",
+  "name": "f2_closeness", "required": true}, {"type": "long", "name": "f2_adrenaline",
+  "required": true}, {"type": "long", "name": "f2_belonging", "required": true}, {"type":
+  "long", "name": "f2_anger", "required": true}, {"type": "long", "name": "f3_skepticism",
+  "required": true}, {"type": "long", "name": "f3_serenity", "required": true}, {"type":
+  "long", "name": "f3_fear", "required": true}, {"type": "long", "name": "f3_disgust",
+  "required": true}, {"type": "long", "name": "f3_solidarity", "required": true},
+  {"type": "long", "name": "f3_elation", "required": true}, {"type": "long", "name":
+  "f3_envy", "required": true}, {"type": "long", "name": "f3_puzzlement", "required":
+  true}, {"type": "long", "name": "f3_recklessness", "required": true}, {"type": "long",
+  "name": "f3_loyalty", "required": true}, {"type": "long", "name": "f3_trust", "required":
+  true}, {"type": "long", "name": "f3_sadness", "required": true}, {"type": "long",
+  "name": "f3_shame", "required": true}, {"type": "long", "name": "f3_catharsis",
+  "required": true}, {"type": "long", "name": "f3_unease", "required": true}, {"type":
+  "long", "name": "f3_introspection", "required": true}, {"type": "long", "name":
+  "f3_excitement", "required": true}, {"type": "long", "name": "f3_riskiness", "required":
+  true}, {"type": "long", "name": "f3_mischief", "required": true}, {"type": "long",
+  "name": "f3_enlightenment", "required": true}, {"type": "long", "name": "f3_love",
+  "required": true}, {"type": "long", "name": "f3_tension", "required": true}, {"type":
+  "long", "name": "f3_sarcasm", "required": true}, {"type": "long", "name": "f3_frustration",
+  "required": true}, {"type": "long", "name": "f3_longing", "required": true}, {"type":
+  "long", "name": "f3_awe", "required": true}, {"type": "long", "name": "f3_defiance",
+  "required": true}, {"type": "long", "name": "f3_amusement", "required": true}, {"type":
+  "long", "name": "f3_vulnerability", "required": true}, {"type": "long", "name":
+  "f3_surprise", "required": true}, {"type": "long", "name": "f3_compassion", "required":
+  true}, {"type": "long", "name": "f3_resentment", "required": true}, {"type": "long",
+  "name": "f3_triumph", "required": true}, {"type": "long", "name": "f3_happiness",
+  "required": true}, {"type": "long", "name": "f3_acceptance", "required": true},
+  {"type": "long", "name": "f3_bravery", "required": true}, {"type": "long", "name":
+  "f3_hope", "required": true}, {"type": "long", "name": "f3_conflict", "required":
+  true}, {"type": "long", "name": "f3_exhilaration", "required": true}, {"type": "long",
+  "name": "f3_inspiration", "required": true}, {"type": "long", "name": "f3_curiosity",
+  "required": true}, {"type": "long", "name": "f3_regret", "required": true}, {"type":
+  "long", "name": "f3_nostalgia", "required": true}, {"type": "long", "name": "f3_irony",
+  "required": true}, {"type": "long", "name": "f3_despair", "required": true}, {"type":
+  "long", "name": "f3_resignation", "required": true}, {"type": "long", "name": "f3_closeness",
+  "required": true}, {"type": "long", "name": "f3_adrenaline", "required": true},
+  {"type": "long", "name": "f3_belonging", "required": true}, {"type": "long", "name":
+  "f3_anger", "required": true}]}'
+source: '{"tags": {"mlflow.user": "linting", "mlflow.source.name": "modelling.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "e1c4790a5874c8c728896b51db631ec45c5cc65b"}}'
+source_type: code

@@ -1,13 +1,8 @@
 import pandas as pd
 from sklearn.neighbors import NearestNeighbors
 import mlflow
-import dagshub
 
-# Nyambungin ke dagshub
-username_dagshub = 'lintinggg'
-nama_repository = 'SMSML_Muhammad-iqbal-faza'
-
-dagshub.init(repo_owner=username_dagshub, repo_name=nama_repository, mlflow=True)
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
 mlflow.set_experiment("Movie_Recommendation_Baseline")
 
